@@ -1,0 +1,12 @@
+<strings>
+ <string id="30000">Stream</string>
+ <string id="30001">Name</string>
+ <string id="30002">URL</string>
+ <string id="30003">Number of Streams</string>
+ <string id="30004">Protocol</string>
+ <string id="30005">Server Name/IP</string>
+ <string id="30006">Starting Port</string>
+ <string id="30007">Stream Name Prefix</string>
+ <string id="30100">Add Streams</string>
+ <string id="30101">Mass Add Streams</string>
+</strings>

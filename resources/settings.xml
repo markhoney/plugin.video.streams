@@ -1,0 +1,26 @@
+<settings>
+ <category label="30100">
+  <setting id="stream1"  type="bool" label="30000 1" default="false"/>
+  <setting id="name1"    type="text" label="30001"   default="30000 1" visible="eq(-1,true)"/>
+  <setting id="string1"  type="text" label="30002"   default=""        visible="eq(-2,true)"/>
+  <setting id="stream2"  type="bool" label="30000 2" default="false"/>
+  <setting id="name2"    type="text" label="30001"   default="30000 2" visible="eq(-1,true)"/>
+  <setting id="string2"  type="text" label="30002"   default=""        visible="eq(-2,true)"/>
+  <setting id="stream3"  type="bool" label="30000 3" default="false"/>
+  <setting id="name3"    type="text" label="30001"   default="30000 3" visible="eq(-1,true)"/>
+  <setting id="string3"  type="text" label="30002"   default=""        visible="eq(-2,true)"/>
+  <setting id="stream4"  type="bool" label="30000 4" default="false"/>
+  <setting id="name4"    type="text" label="30001"   default="30000 4" visible="eq(-1,true)"/>
+  <setting id="string4"  type="text" label="30002"   default=""        visible="eq(-2,true)"/>
+  <setting id="stream5"  type="bool" label="30000 5" default="false"/>
+  <setting id="name5"    type="text" label="30001"   default="30000 5" visible="eq(-1,true)"/>
+  <setting id="string5"  type="text" label="30002"   default=""        visible="eq(-2,true)"/>
+ </category>
+ <category label="30101">
+  <setting id="number"   type="labelenum" label="30003" default="0"    values="0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16"/>
+  <setting id="proto"    type="labelenum" label="30004" default="http" values="http|mms|rtsp" enable="gt(-1,0)"/>
+  <setting id="server"   type="text"      label="30005" default=""                            enable="gt(-2,0)"/>
+  <setting id="port"     type="number"    label="30006" default="8081"                        enable="gt(-3,0)"/>
+  <setting id="prefix"   type="text"      label="30007" default="Stream "                     enable="gt(-4,0)"/>
+ </category>
+</settings>
